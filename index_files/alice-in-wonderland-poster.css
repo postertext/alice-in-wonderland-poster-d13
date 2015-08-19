@@ -144,12 +144,17 @@ a {
 .time {
   font-weight: bold;
 }
-.hero-h1 {
-  margin-bottom: 40px;
-}
+
 .hero-text {
-  margin-bottom: 50px;
+  margin-bottom: 0px;
+  line-height: 45px;
 }
+#hero-after-text {
+  color: #6B6B6B;
+  font-size: 30px;
+  margin: 0px;
+}
+    
 .hero-quote {
   margin-top: 70px;
   font-size: 18px;
@@ -184,6 +189,7 @@ a {
   text-align: center;
 }
 .hero-subheader {
+  margin-top: 50px;    
   margin-bottom: 33px;
 }
 .value-prop-text {
@@ -573,6 +579,18 @@ a {
 html.w-mod-js *[data-ix="0-opacity-on-load"] {
   opacity: 0;
 }
+
+@media (max-width: 1052px){
+  .hero-text {
+    font-size: 38px;
+  }
+    
+  #hero-after-text {
+    font-size: 25px;
+    line-height: 20px;
+  }
+}    
+    
 @media (max-width: 991px) {
    .modal-window-terms, .modal-window-returns {
    padding-left: 55px;
@@ -631,7 +649,6 @@ html.w-mod-js *[data-ix="0-opacity-on-load"] {
     top: 0px;
     left: -105px;
     bottom: 0px;
-      
   }
   .right-column {
     padding-right: 0px;
@@ -683,6 +700,18 @@ html.w-mod-js *[data-ix="0-opacity-on-load"] {
     padding-right: 50px;
   }
 }
+    
+@media (max-width: 820px) {
+   .hero-text {
+     font-size: 35px;   
+     line-height: 35px;
+   }
+
+    #hero-after-text {
+      line-height: 35px;    
+    }
+}
+    
 @media (max-width: 767px) {
    .modal-window-terms, .modal-window-returns {
    padding-left: 20px;
@@ -726,7 +755,6 @@ html.w-mod-js *[data-ix="0-opacity-on-load"] {
     line-height: 40px;
   }
   .hero-text {
-    margin-bottom: 25px;
     line-height: 38px;
     text-align: center;
   }
